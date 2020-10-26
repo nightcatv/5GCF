@@ -1,0 +1,9 @@
+/nnrf-nfm/v1|GET
+/nnrf-nfm/v1/nf-instances|GET
+/nnrf-nfm/v1/nf-instances/[nfInstanceId]|PUT
+/nnrf-nfm/v1/nf-instances/[nfInstanceId]|GET
+/nnrf-nfm/v1/nf-instances/[nfInstanceId]|PATCH
+/nnrf-nfm/v1/nf-instances/[nfInstanceId]|DELETE
+/nnrf-nfm/v1/subscriptions|POST
+/nnrf-nfm/v1/subscriptions/[subscriptionId]|PATCH
+/nnrf-nfm/v1/subscriptions/[subscriptionId]|DELETE
