@@ -1,0 +1,8 @@
+/nsmf-pdusession/v1|GET
+/nsmf-pdusession/v1/pdu-sessions|POST
+/nsmf-pdusession/v1/pdu-sessions/[pduSessionRef]/release|POST
+/nsmf-pdusession/v1/pdu-sessions/[pduSessionRef]/modify|POST
+/nsmf-pdusession/v1/sm-contexts|POST
+/nsmf-pdusession/v1/sm-contexts/[smContextRef]/release|POST
+/nsmf-pdusession/v1/sm-contexts/[smContextRef]/retrieve|POST
+/nsmf-pdusession/v1/sm-contexts/[smContextRef]/modify|POST

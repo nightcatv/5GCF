@@ -1,0 +1,7 @@
+/nsmf-oam/v1|GET
+/nsmf-oam/v1/ue-pdu-session-info/[smContextRef]|GET
+/nsmf_event-exposure/v1|GET
+/nsmf_event-exposure/v1/subscriptions|POST
+/nsmf_event-exposure/v1/subscriptions/[subId]|GET
+/nsmf_event-exposure/v1/subscriptions/[subId]|PUT
+/nsmf_event-exposure/v1/subscriptions/[subId]|DELETE
