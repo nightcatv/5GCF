@@ -1,0 +1,3 @@
+namf-loc/v1|GET
+namf-loc/v1/[ueContextId]/provide-loc-info|POST
+namf-loc/v1/[ueContextId]/provide-pos-info|POST

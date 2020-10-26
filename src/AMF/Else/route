@@ -1,0 +1,8 @@
+/namf-callback/v1|GET
+/namf-callback/v1/smContextStatus/[guti]/[pduSessionId]|POST
+/namf-callback/v1/am-policy/[polAssoId]/update|POST
+/namf-callback/v1/am-policy/[polAssoId]/terminate|POST
+/namf-callback/v1/n1-message-notify|POST
+/namf-oam/v1|GET
+/namf-oam/v1/registered-ue-context|GET
+/namf-oam/v1/registered-ue-context/[supi]|GET

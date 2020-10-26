@@ -1,0 +1,4 @@
+/namf-evts/v1|GET
+/namf-evts/v1/subscriptions|POST
+/namf-evts/v1/subscriptions/[subscriptionId]|PATCH
+/namf-evts/v1/subscriptions/[subscriptionId]|DELETE

@@ -1,0 +1,3 @@
+/namf-mt/v1|GET
+/namf-mt/v1/ue-contexts/[ueContextId]|GET
+/namf-mt/v1/ue-contexts/[ueContextId]/ue-reachind|POST

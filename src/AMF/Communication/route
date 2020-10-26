@@ -1,0 +1,16 @@
+/namf-comm/v1|GET
+/namf-comm/v1/subscriptions|POST
+/namf-comm/v1/subscriptions/[subscriptionId]|PUT
+/namf-comm/v1/subscriptions/[subscriptionId]|DELETE
+/namf-comm/v1/ue-contexts/[ueContextId]|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/assign-ebi|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/release|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/transfer|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/transfer-update|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/n1-n2-messages|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/n1-n2-messages/[n1N2MessageId]|GET
+/namf-comm/v1/ue-contexts/[ueContextId]/n1-n2-messages/subscriptions|POST
+/namf-comm/v1/ue-contexts/[ueContextId]/n1-n2-messages/subscriptions/[subscriptionId]|DELETE
+/namf-comm/v1/non-ue-n2-messages/subscriptions|POST
+/namf-comm/v1/non-ue-n2-messages/subscriptions/[n2NotifySubscriptionId]|DELETE
+/namf-comm/v1/non-ue-n2-messages/transfer|POST
