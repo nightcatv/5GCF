@@ -1,0 +1,4 @@
+/npcf-ue-policy-control/v1|GET
+/npcf-ue-policy-control/v1/policies|POST
+/npcf-ue-policy-control/v1/policies/[polAssoId]|GET
+/npcf-ue-policy-control/v1/policies/[polAssoId/update|POST

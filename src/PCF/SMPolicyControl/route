@@ -1,0 +1,5 @@
+/npcf-smpolicycontrol/v1|GET
+/npcf-smpolicycontrol/v1/sm-policies|POST
+/npcf-smpolicycontrol/v1/sm-policies/[smPolicyId]|GET
+/npcf-smpolicycontrol/v1/sm-policies/[smPolicyId]/update|POST
+/npcf-smpolicycontrol/v1/sm-policies/[smPolicyId]/delete|POST

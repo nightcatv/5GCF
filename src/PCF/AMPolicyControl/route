@@ -1,0 +1,5 @@
+/npcf-am-policy-control/v1|GET
+/npcf-am-policy-control/v1/policies|POST
+/npcf-am-policy-control/v1/policies/[polAssoId]|GET
+/npcf-am-policy-control/v1/policies/[polAssoId]/update|POST
+/npcf-am-policy-control/v1/policies/[polAssoId]|DELETE

@@ -1,0 +1,4 @@
+/npcf-bdtpolicycontrol/v1|GET
+/npcf-bdtpolicycontrol/v1/bdtpolicies|POST
+/npcf-bdtpolicycontrol/v1/bdtpolicies/[bdtPolicyId]|GET
+/npcf-bdtpolicycontrol/v1/bdtpolicies/[bdtPolicyId]|PATCH

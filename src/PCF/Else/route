@@ -1,0 +1,4 @@
+/npcf-callback/v1/nudr-notify/[supi]|POST
+/npcf-callback/v1/amfstatus|POST
+/npcf-oam/v1|GET
+/npcf-oam/v1/am-policy/[supi]|GET

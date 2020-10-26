@@ -1,0 +1,7 @@
+/npcf-policyauthorization/v1|GET
+/npcf-policyauthorization/v1/app-sessions|POST
+/npcf-policyauthorization/v1/app-sessions/[appSessionId]|GET
+/npcf-policyauthorization/v1/app-sessions/[appSessionId]|PATCH
+/npcf-policyauthorization/v1/app-sessions/[appSessionId]/delete|POST
+/npcf-policyauthorization/v1/app-sessions/[appSessionId]/events-subscription|PUT
+/npcf-policyauthorization/v1/app-sessions/[appSessionId]/events-subscription|DELETE 
