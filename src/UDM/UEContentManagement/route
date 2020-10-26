@@ -1,0 +1,15 @@
+/nudm-uecm/v1|GET
+/nudm-uecm/v1/[ueId]/registrations/amf-3gpp-access|PUT
+/nudm-uecm/v1/[ueId]/registrations/amf-3gpp-access|GET
+/nudm-uecm/v1/[ueId]/registrations/amf-3gpp-access|PATCH
+/nudm-uecm/v1/[ueId]/registrations/amf-non-3gpp-access|PUT
+/nudm-uecm/v1/[ueId]/registrations/amf-non-3gpp-access|GET
+/nudm-uecm/v1/[ueId]/registrations/amf-non-3gpp-access|PATCH
+/nudm-uecm/v1/[ueId]/smf-registrations/[pduSessionId]|PUT
+/nudm-uecm/v1/[ueId]/smf-registrations/[pduSessionId]|DELETE
+/nudm-uecm/v1/[ueId]/smsf-3gpp-access|PUT
+/nudm-uecm/v1/[ueId]/smsf-3gpp-access|GET
+/nudm-uecm/v1/[ueId]/smsf-3gpp-access|DELETE
+/nudm-uecm/v1/[ueId]/smsf-non-3gpp-access|PUT
+/nudm-uecm/v1/[ueId]/smsf-non-3gpp-access|GET
+/nudm-uecm/v1/[ueId]/smsf-non-3gpp-access|DELETE

@@ -1,0 +1,4 @@
+/nudm-ee/v1|GET
+/nudm-ee/v1/[ueIdentity]/ee-subscriptions|POST
+/nudm-ee/v1/[ueIdentity]/ee-subscriptions/[subscriptionId]|PATCH
+/nudm-ee/v1/[ueIdentity]/ee-subscriptions/[subscriptionId]|DELETE

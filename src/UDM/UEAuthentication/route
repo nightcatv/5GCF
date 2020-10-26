@@ -1,0 +1,3 @@
+/nudm-ueau/v1|GET
+/nudm-ueau/v1/[supi]/auth-events|POST
+/nudm-ueau/v1/[supi]/security-information/generate-auth-data|POST
