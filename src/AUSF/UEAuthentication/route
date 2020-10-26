@@ -1,0 +1,4 @@
+/nausf-auth/v1|GET
+/nausf-auth/v1/ue-authentications|POST
+/nausf-auth/v1/ue-authentications/[authCtxId]/eap-session|POST
+/nausf-auth/v1/ue-authentications/[authCtxId]/5g-aka-confirmation|PUT
