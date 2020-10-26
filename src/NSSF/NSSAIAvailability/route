@@ -1,0 +1,6 @@
+/nnssf-nssaiavailability/v1|GET
+/nnssf-nssaiavailability/v1/nssai-availability/[nfId]|PUT
+/nnssf-nssaiavailability/v1/nssai-availability/[nfId]|PATCH
+/nnssf-nssaiavailability/v1/nssai-availability/[nfId]|DELETE
+/nnssf-nssaiavailability/v1/nssai-availability/subscriptions|POST
+/nnssf-nssaiavailability/v1/nssai-availability/[nfId]/[subscriptionId]|DELETE
