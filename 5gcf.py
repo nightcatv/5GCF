@@ -1,6 +1,7 @@
 import os
 import platform
 import menu
+import process
 
 host = ""
 port = ""
@@ -19,8 +20,8 @@ def main():
 		menu.info()
 		path, port = menu.menu()
 		address = host + ":" + port
-		print(path)
-		print(address)
+
+		process.load_route(path)
 		input("")
 
 
