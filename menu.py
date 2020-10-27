@@ -5,7 +5,7 @@ def info():
 	subtitle = "5G Core Fuzzer"
 	author = "Иo1lz"
 	
-	tprint(title, font = "rnd-xlarge")
+	tprint(title, font = "3d_diagonal")
 	print("+--------------------------------+")
 	print("| " + subtitle + " " * (31 - len(subtitle)) + "|")
 	print("| by " + author + " " * (28 - len(author)) + "|")
@@ -21,25 +21,36 @@ def menu():
 		print("[" + str(i) + "] " + NF[i - 1])
 	print("[0] Quit")
 	
-	choose = int(input(">> "))
-	if choose == 0:
-		exit()
-	else:
-		chosen_nf = api(NF[choose - 1])
-		path += "/" + NF[choose - 1]
+	while True:
+		choose = input(">> ")
+		if choose == "0":
+			exit()
+		elif choose.isnumeric() and int(choose) <= len(NF):
+			choose = int(choose)
+			chosen_nf = api(NF[choose - 1])
+			path += "/" + NF[choose - 1]
+			break
+		else:
+			print("Wrong input, please choose again")
 	
+	print("\n" + "-" * 33)
 	for i in range(1, len(chosen_nf)):
 		print("[" + str(i) + "] " + chosen_nf[i])
 	print("[0] Quit")
-		
-	choose = int(input(">> "))
-	if choose == 0:
-		exit()
-	else:
-		path += "/"
-		for i in chosen_nf[choose].split(" "):
-			path += i
-		path = "src" + path
+	
+	while True:
+		choose = input(">> ")
+		if choose == "0":
+			exit()
+		elif choose.isnumeric() and  int(choose) <= len(chosen_nf):
+			choose = int(choose)
+			path += "/"
+			for i in chosen_nf[choose].split(" "):
+				path += i
+			path = "src" + path + "/route"
+			break
+		else:
+			print("Wrong input, please choose again")
 	
 	return path, chosen_nf[0]
 
