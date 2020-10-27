@@ -23,11 +23,12 @@ def info():
 
 def menu():
 	NF = ["AMF", "AUSF", "NRF", "NSSF", "NEF", "PCF", "SMF", "UDM", "UDR"]
+	NetworkFunction = ["Access and Mobility Management Function", "Authentication Server Function", "Network Repository Function", "Network Slice Selection Function", "Network Exposure Function", "Policy Control Function", "Session Management Function", "Unified Data Management", "Unified Data Repository"]
 	path = ""
 
 	print("Please choose the NF you want to fuzz.")
 	for i in range(1, len(NF) + 1):
-		print("[" + str(i) + "] " + NF[i - 1])
+		print("[" + str(i) + "] " + NF[i - 1] + " " * (5 - len(NF[i - 1])) + " - " + NetworkFunction[i - 1])
 	print("[0] Quit")
 	
 	while True:
