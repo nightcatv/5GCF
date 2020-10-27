@@ -1,6 +1,15 @@
 from art import *
+import os
+import platform
+
+def clean():
+	if platform.system() == "Windows":
+		os.system("cls")
+	else:
+		os.system("clear")
 
 def info():
+	clean()
 	title = "5GCF"
 	subtitle = "5G Core Fuzzer"
 	author = "Иo1lz"
