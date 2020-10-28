@@ -13,9 +13,12 @@ def main():
 		address = host + ":" + port
 
 		routes, methods = process.load_route(address, path)
-
+		
 		menu.info()
-		process.connect(routes, methods)
+		print("\nMETHOD" + " " * 2 + "URL" + " " * 147 + "RESPONSE" + "\n" + "-" * 166)
+		for route, method in zip(routes, methods):
+			# Change parameter here
+			process.connect(route, method)
 		input("")
 
 

@@ -10,27 +10,23 @@ def load_route(address, path):
 			methods.append(tmp[1][:-1])
 	return routes, methods
 
-def connect(routes, methods):
-	print("\nMETHOD" + " " * 2 + "URL" + " " * 147 + "RESPONSE" + "\n" + "-" * 166)
-	for route, method in zip(routes, methods):
-		result = method + " " * (8 - len(method)) + route + " " * (150 - len(route))
-		try:
-			if method == "GET":
-				Print(result, requests.get(route, timeout = 5).status_code)
-			elif method == "POST":
-				Print(result, requests.post(route, timeout = 5).status_code)
-			elif method == "PUT":
-				Print(result, requests.put(route, timeout = 5).status_code)
-			elif method == "DELETE":
-				Print(result, requests.delete(route, timeout = 5).status_code)
-			elif method == "PATCH":
-				Print(result, requests.patch(route, timeout = 5).status_code)
-		except requests.exceptions.Timeout:
-			Print(result, 0)
-			continue
-		except requests.exceptions.ConnectionError:
-			Print(result, -1)
-			continue
+def connect(route, method):
+	result = method + " " * (8 - len(method)) + route + " " * (150 - len(route))
+	try:
+		if method == "GET":
+			Print(result, requests.get(route, timeout = 5).status_code)
+		elif method == "POST":
+			Print(result, requests.post(route, timeout = 5).status_code)
+		elif method == "PUT":
+			Print(result, requests.put(route, timeout = 5).status_code)
+		elif method == "DELETE":
+			Print(result, requests.delete(route, timeout = 5).status_code)
+		elif method == "PATCH":
+			Print(result, requests.patch(route, timeout = 5).status_code)
+	except requests.exceptions.Timeout:
+		Print(result, 0)
+	except requests.exceptions.ConnectionError:
+		Print(result, -1)
 
 def Print(result, status):
 	print(result, end = "")
