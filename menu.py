@@ -57,7 +57,7 @@ def menu():
 			path += "/"
 			for i in chosen_nf[choose].split(" "):
 				path += i
-			path = "src" + path + "/route"
+			path = "src" + path
 			break
 		else:
 			print("Wrong input, please choose again")

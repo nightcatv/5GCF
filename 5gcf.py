@@ -12,7 +12,7 @@ def main():
 		path, port = menu.menu()
 		address = host + ":" + port
 
-		routes, methods = process.load_route(address, path)
+		routes, methods = process.load_route(address, path + "/route")
 		
 		menu.info()
 		print("\nMETHOD" + " " * 2 + "URL" + " " * 147 + "RESPONSE" + "\n" + "-" * 166)
